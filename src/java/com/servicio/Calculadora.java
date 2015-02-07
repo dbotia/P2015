@@ -47,7 +47,7 @@ public class Calculadora {
     public String division(@QueryParam("numero1")long numero1,@QueryParam("numero2")long numero2) {
                 if(numero2!=0)
                 return Long.toString(numero1/numero2);
-                else return "Error en divisor";
+                else return "Error en divisor Por favor corrija.";
     }
     // Add business logic below. (Right-click in editor and choose
     // "Insert Code > Add Business Method")
